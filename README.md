@@ -59,7 +59,7 @@ Provide a platform for people to share and verify prophecies. The motivation beh
 
 ### Login page
 <p align="center">
-<img width="376" alt="image" src="https://github.com/xqcxqc/SlapeFace/assets/76079094/43844446-350c-4b5a-97c2-73f63a5c59c2">
+<img width="1512" alt="image" src="https://github.com/xqcxqc/SlapeFace/blob/master/slapFace_Assets/login.png">
 </p>
 
 We implemented **Google** login for better user experience, but users can also register their own accounts on our site.
@@ -68,7 +68,7 @@ We implemented **Google** login for better user experience, but users can also r
 ### Home page
 <p align="center">
 
-<img width="1512" alt="image" src="https://github.com/xqcxqc/SlapeFace/assets/76079094/ee245636-85ff-4e2a-8d02-c6747aa8ec46">
+<img width="1512" alt="image" src="https://github.com/xqcxqc/SlapeFace/blob/master/slapFace_Assets/Home.png?raw=true">
 </p>
 Including three sections: 
   - Left-side: Trending News
@@ -77,22 +77,31 @@ Including three sections:
 
 ### Rank page
 <p align="center">
-<img width="1512" alt="image" src="https://github.com/xqcxqc/SlapeFace/assets/76079094/d34a4806-aa42-4943-ad22-c5b5aea777bc">
+<img width="1512" alt="image" src="https://github.com/xqcxqc/SlapeFace/blob/master/slapFace_Assets/Rank.png?raw=true">
 </p>
 
 Display the users with highest points respect to time. 
 
 ### Profile Page
 <p align="center">
-<img width="1512" alt="image" src="https://github.com/xqcxqc/SlapeFace/assets/76079094/3645d116-aabd-4141-8153-8545001ec02c">
-</p>
-
-### Prophecy
-<p align="center">
-screenshot needed
+<img width="1512" alt="image" src="https://github.com/xqcxqc/SlapeFace/blob/master/slapFace_Assets/Profile.png?raw=true">
 </p>
 
 Users can view all prophecies they created and participated. Abd allow user to edit their info there. 
+
+### Prophecy
+<p align="center">
+<img width="1512" alt="image" src="https://github.com/xqcxqc/SlapeFace/blob/master/slapFace_Assets/CreateProphecy.png?raw=true">
+</p>
+
+Users can create prophecies and decide the options and verify date.  
+
+### Notification
+<p align="center">
+<img width="1512" alt="image" src="https://github.com/xqcxqc/SlapeFace/blob/master/slapFace_Assets/Notifycation.png?raw=true">
+</p>
+
+Users can receive real-time notification after the prophecy that they participated is verified. 
 
 ## Use this project
 
