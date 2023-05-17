@@ -36,7 +36,7 @@ const News = () => {
 
   return (
     <div className="NewsContainer">
-      <h1>Trending News</h1>
+      <h1 data-testid='news-header-heading'>Trending News</h1>
       <Pagination
         defaultCurrent={1}
         total={articles && articles.length}

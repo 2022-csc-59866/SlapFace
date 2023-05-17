@@ -4,12 +4,11 @@ import { render, screen } from "@testing-library/react";
 // import userEvent from '@testing-library/user-event'
 import '@testing-library/jest-dom'
 import News from "../components/News/News";
+import {NewsRow} from "../components/News/NewsRow";
 
-/* This is a test that is testing the App component. 
- * It is testing that the heading is correct. */
+
 describe("App", () => {
-  it("should have exact heading", () => {
-
+  it("News: should have exact heading", () => {
     Object.defineProperty(window, 'matchMedia', {
       writable: true,
       value: jest.fn().mockImplementation(query => ({
@@ -23,14 +22,26 @@ describe("App", () => {
         dispatchEvent: jest.fn(),
       })),
     });
-    /* Rendering the App component. */
     const { container } = render(<News />);
 
-    /* Getting the element with the test id of "app-header-heading". */
     const mainHeading = screen.getByTestId("news-header-heading");
-
-    /* Checking that the innerHTML of the element with the test id of "app-header-heading" is equal to
-    "Productivity Tracker". */
     expect(mainHeading.innerHTML).toBe("Trending News");
   });
+
+
+  it("News: should have inputed data", () => {
+    const data = {
+      url: "123",
+      title: "321",
+      urlToImage: "123123",
+      description: "description"
+    }
+    const { container } = render(<NewsRow article={data} />);
+
+    const title = screen.getByText("321");
+    expect(title.innerHTML).toBe("321");
+  });
+
+
+
 });
