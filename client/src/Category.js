@@ -1,3 +1,6 @@
+// import requireContext from 'require-context.macro';
+
+
 function importAll(r) {
     let images = {};
 
@@ -9,6 +12,7 @@ function importAll(r) {
     return images
 }
 const images = importAll(require.context('./components/BeginnerGuidance/data', false, /\.(png|jpe?g|svg|webp)$/));
+// const images = importAll(requireContext('./components/BeginnerGuidance/data', false, /\.(png|jpe?g|svg|webp)$/));
 
 
 export const categoryList = [

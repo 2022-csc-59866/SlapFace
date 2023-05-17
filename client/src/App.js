@@ -39,7 +39,10 @@ function App() {
   }, [token]);
 
   useEffect(() => {
-    verifyUser();
+    //verifyUser();
+    if(user){
+      document.title = "SlapFace - " + user.username;
+    }
   }, [user]);
 
   const connectSocket = async () => {};
