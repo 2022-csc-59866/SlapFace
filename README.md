@@ -51,8 +51,8 @@ Provide a platform for people to share and verify prophecies. The motivation beh
 
 
 ## Tools
-- Front-end: [React](https://create-react-app.dev/) + [Ant Design](https://ant.design/) + [Bootstrap](https://getbootstrap.com)
-- Back-end: [Node.js](https://nodejs.org/en/)
+- Front-end: [React](https://create-react-app.dev/) + [Ant Design](https://ant.design/) + [Material UI](https://mui.com/) + [Bootstrap](https://getbootstrap.com)
+- Back-end: [Node.js](https://nodejs.org/en/) + [Passport.JS](https://www.passportjs.org/) + [Socket.IO]([https://ant.design/](https://socket.io/))
 - Database: [MongoDB](https://www.mongodb.com/) 
 
 ## Site looks
